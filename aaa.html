@@ -1,0 +1,106 @@
+<html>
+<head><title>Feedback</title>
+<style>
+table{
+font-family:Times New Roman;
+background-color:powderblue;
+font-size:16pt;
+}
+caption{
+text-align:center;
+font-weight:bold;
+font-size:20pt;
+height:50px;
+}
+th,td {
+padding: 15px;
+height: 20%;
+}
+td.title{
+font-weight:bold;
+font-size:large;
+background-color:#687886;
+color:#fff;
+}
+</style>
+
+</head>
+<body topmargin="50">
+
+<center>
+<table><form><caption>Personal Details:</caption>
+<tr>
+<td width='40%' class='title'>First Name:</td>
+<td><input type="text name=fname"></td>
+</tr>
+
+<tr>
+<td class='title'>Last Name:</td>
+<td><input type="text name=lname"></td>
+</tr>
+
+<tr>
+<td class='title'>Gender:</th>
+<td><input type=radio name=gender value=Male>Male
+<input type=radio name=gender value=Female>Female</td>
+</tr>
+
+<tr>
+<td class='title'>Feedback:</td>
+<td><textarea rows=4 cols=70 name=address></textarea></td>
+</tr>
+
+<tr>
+<td class='title'>Date of birth:</td>
+<td><input type=date name=dob><br></td>
+</tr>
+
+<tr>
+<td class='title'>
+Course:
+</td>
+<td>
+<select>
+<option value="0">- List of Course -</option>
+
+<optgroup label="Diploma in Computer Science">
+<option value="DCS_S1">Semester 1</option>
+<option value="DCS_S2">Semester 2</option>
+<option value="DCS_S3">Semester 3</option>
+<option value="DCS_S4">Semester 4</option>
+<option value="DCS_S5">Semester 5</option>
+<option value="DCS_S6">Semester 6</option>
+</optgroup>
+
+<optgroup label="Diploma in Business">
+<option value="DIB_S1">Semester 1</option>
+<option value="DIB_S2">Semester 2</option>
+<option value="DIB_S3">Semester 3</option>
+<option value="DIB_S4">Semester 4</option>
+<option value="DIB_S5">Semester 5</option>
+<option value="DIB_S6">Semester 6</option>
+</optgroup>
+
+<optgroup label="Diploma in Airline Service">
+<option value="DAS_S1">Semester 1</option>
+<option value="DAS_S2">Semester 2</option>
+<option value="DAS_S3">Semester 3</option>
+<option value="DAS_S4">Semester 4</option>
+<option value="DAS_S5">Semester 5</option>
+<option value="DAS_S6">Semester 6</option>
+</optgroup>
+ 	
+</select>
+</td>
+</tr>
+
+</table>
+<br><br>
+
+<input type=submit value=Submit>
+<input type=reset value=Reset>
+</td></tr><br><br>
+</form>
+</center>  
+</body>
+</html>
