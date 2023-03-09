@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Northsea University</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<script src="https://kit.fontawesome.com/464a299735.js" crossorigin="anonymous"></script>
+<link rel="icon" href="images/onlylogo.jpg" type="image/icon type">
+    </head>
+
+    <body>
+        <section class="sub-header-question"> 
+            <nav>
+                <a href="index.html"><img src="images/logowithoutblack.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html" target="_self" title="主页"><i class="fa-solid fa-house-chimney"></i> HOME</a></li>
+                        <li><a href="about.html" target="_blank" title="关于我们"><i class="fa-sharp fa-solid fa-circle-info"></i> ABOUT</a></li>
+                        <li><a href="course.html" target="_blank" title="课程"><i class="fa-solid fa-book-open"></i> PROGRAMMES</a></li>
+                        <li><a href="blog.html" target="_blank" title="时间表"><i class="fa-solid fa-calendar-days"></i> TIMETABLE</a></li>
+                        <li><a href="contact.html" target="_blank" title="联络"><i class="fa-sharp fa-solid fa-comment-sms"></i> CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Inquiry and Questions</h1>
+        </section>
+
+        <section class="table questioncol" id="personaldetails">
+            <video autoplay loop muted plays-inline class="bgvideo">
+                <source src="images/questionbgvideo.mp4" type="video/mp4">
+            </video>
+            <form name=MyFirstForm onsubmit="return validateForm()" id="none">
+            <div class="row">
+                <div class="cell" id="greybg">Personal Details:</div>
+                <div class="cell" id="greybg"></div>
+            </div>
+            
+
+                <div class="row">
+                <div class="cell" id="greybg"> Name:</div>
+                <div class="cell"><input type="text" name="username"></div>
+                </div>
+                        
+                <div class="row">
+                    <div class="cell" id="greybg"> Gender:</div>
+                    <div class="cell"><input type=radio name=gender value=Male>Male
+                        <input type=radio name=gender value=Female>Female</div>
+                </div>
+
+                <div class="row">
+                    <div class="cell" id="greybg">Email Address:</div>
+                    <div class="cell"><textarea rows=2 cols=70 name=address></textarea></div>
+                </div>
+
+                <div class="row">
+                    <div class="cell" id="greybg">Date of birth:</div>
+                    <div class="cell"><input type=date name=dob></div>
+                </div>
+
+                <div class="row">
+                    <div class="cell" id="greybg">Course:</div>
+                    <div class="cell"><select>
+                        <option value="0">List Of Courses -</option>
+                        <option value="">Foundation in ScienceS</option>
+                        <option value="">Foundation in Arts</option>
+                        <option value="">Bachelor of Nursing</option>
+                        <option value="">Bachelor of Computer Science</option>
+                        <option value="">Master in Data Management and Analytics</option>
+                        <option value="">Master of Psychology</option> 	
+                        </select></div>
+                </div>
+                <div class="row">
+                    <div class="cell" id="greybg">Your Questions:</div>
+                    <div class="cell"><textarea name="question" id="" cols="70" rows="3"></textarea></div>
+                </div>
+                <div class="row">
+                    <div class="cell" id="greybg"></div>
+                    <div class="cell">
+                        <input type=submit value=Submit class="baka-btn yellow-btn">
+                        <input type=reset value=Reset class="baka-btn yellow-btn"></div>
+                </div>
+               
+
+                </form>
+        </section>
+
+<!----call to action---->
+
+<section class="ctb">
+    <h1>If you are in a hurry, please click the button below<br> and get in touch with us. Thanks</h1>
+    <a href="contact.html" class="giv-btn home-btn">CONTACT US</a>
+</section>
+
+<!-----Footer----->
+<section class="footer">
+    <h4>
+        <b>NorthSea University of Technology & Innovation (NSU)</b><br> 
+        Technology Park Malaysia
+        Bukit Jalil, Kuala Lumpur 57000 Malaysia.
+        JPT/BPP(U)1000-801/63/Jld.3(18)
+    </h4>
+    <p2><b>NSU - 100% Employability.</b>* (*Latest Graduate Tracer Study by Ministry of Higher Education, Malaysia)<br>
+        <b>NSU - Rated No.1 in Asia and Malaysia for Multicultural Learning Experience.**</b><br>
+        (**Student Barometer Wave 2019 (International Students), Studying with people from other cultures)<br>
+        <b>NSU - Among Highest Rated Emerging Malaysian Universities - 5 STAR (Excellent Rating) -  SETARA - MOHE</b><br><br>
+        © 2023 NorthSea University of Technology & Innovation (NSU). All rights reserved.
+    </p2><br>
+    <a href="https://instagram.com/griffinc_04?igshid=YmJhNjkzNzY=" target="_blank"><img src="images/logoinstagram.jpg" width="20px" id="picradius"></a>
+    <a href="https://www.facebook.com/jack.benghao?mibextid=ZbWKwL  " target="_blank"><img src="images/facebooklogo.JPG" width="20px" id="picradius"></a>
+    <a href="https://discord.gg/qP6nHGa6" target="_blank"><img src="images/discordlogo.JPG" width="20px" id="picradius"></a>
+    <a href="mailto:ahbeng728@gmail.com" target="_blank"><img src="images/gmail.logo.JPG" width="20px" id="picradius"></a>
+        <br>
+        <p3>Made by Griffin Choo</p3>
+        
+</section>
+
+<a class="loginbtn" href="login.html" title="Login"> <i class="fa-sharp fa-solid fa-user-secret"></i></a>
+<a class="gotopbtn" href="#" title="Going Top"> <i class="fas fa-arrow-up"></i></a>
+
+<script>
+
+    var navLinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</script>
+<script src="java.js"></script>
+</body>
+</html>
