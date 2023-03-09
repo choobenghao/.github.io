@@ -38,6 +38,10 @@ html{
     transition: 1s;
 }
 
+@media(max-width:700px){
+.gotopbtn:250px;
+}
+
 .loginbtn{
     position: fixed;
     width: 50px;
